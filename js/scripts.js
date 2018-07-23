@@ -2,6 +2,11 @@
 function randomNumber() {
     var x = Math.floor((Math.random() * 9) + 1);
     document.getElementById("difficulty").innerHTML = x;
+
+}
+
+function mUp(obj) {
+    obj.innerHTML="Uh-Oh!"; 
 }
 
 // Select your character
