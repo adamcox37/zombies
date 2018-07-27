@@ -43,7 +43,7 @@ function randomZeke2() {
         window.location=link1
     else if (myrandom==1)
         window.location=link2
-    else if (myrandom==1)
+    else if (myrandom==2)
         window.location=link3
 }
 
@@ -57,7 +57,7 @@ function randomZeke3() {
         window.location=link1
     else if (myrandom==1)
         window.location=link2
-    else if (myrandom==1)
+    else if (myrandom==2)
         window.location=link3
 }
 
@@ -72,8 +72,55 @@ function randomZeke4() {
         window.location=link2
 }
 
-
-
 // Julie's adventure
+function randomJulie1() {
+    var myrandom=Math.round(Math.random() * 1)
+    var link1 = "julie1.html"
+    var link2 = "julie2.html"
+
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+}
+
+function randomJulie2() {
+    var myrandom=Math.round(Math.random() * 2)
+    var link1 = "julie3.html"
+    var link2 = "julie4.html"
+    var link3 = "julie_dead.html"
+
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+    else if (myrandom==2)
+        window.location=link3
+}
+
+function randomJulie3() {
+    var myrandom=Math.round(Math.random() * 2)
+    var link1 = "julie5.html"
+    var link2 = "julie6.html"
+    var link3 = "julie_dead.html"
+
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+    else if (myrandom==2)
+        window.location=link3
+}
+
+function randomJulie4() {
+    var myrandom=Math.round(Math.random() * 1)
+    var link1 = "julie_end.html"
+    var link2 = "julie_dead.html"
+
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+}
 
 // Death screen
