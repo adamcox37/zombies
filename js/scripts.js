@@ -9,6 +9,11 @@ function mUp(obj) {
     obj.innerHTML="Uh-Oh!"; 
 }
 
+// Main.html button appears after difficulty is clicked.
+function showDiv() {
+   document.getElementById('button').style.display = "block";
+}
+
 // Select your character
 function randomCharacter() {
 	var myrandom=Math.round(Math.random() * 1)

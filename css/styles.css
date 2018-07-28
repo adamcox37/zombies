@@ -17,7 +17,7 @@
  	display: block;
  	margin: 20px;
  	text-decoration: none;
- 	cursor: default;
+ 	cursor: pointer;
  }
 
  img {
@@ -36,6 +36,11 @@
 #difficulty {
 	font-size: 8em;
 	padding-top: 20%;
+}
+
+/* Button display */
+#button {
+	display: none;
 }
 
 /** Display **/
