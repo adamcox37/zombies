@@ -43,8 +43,15 @@
 	display: none;
 }
 
-/** Display **/
+/**********************************
+			DISPLAY
+**********************************/
+/** Main Display **/
 .container {
 	display: grid;
 	justify-content: center;
+}
+
+.manual {
+	max-height: 300px;
 }
