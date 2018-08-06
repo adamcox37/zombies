@@ -1,6 +1,10 @@
 /**********************************
 			GENERAL
 **********************************/
+ * {
+    box-sizing: border-box;
+}
+
  body {
  	font-family: 'Press Start 2P', cursive;
  	background-color: #ffecb3;
@@ -46,12 +50,23 @@
 /**********************************
 			DISPLAY
 **********************************/
-/** Main Display **/
+/** Main display **/
 .container {
 	display: grid;
 	justify-content: center;
 }
 
+/** Manual display **/
 .manual {
-	max-height: 300px;
+	display: grid;
+	grid-template-columns: repeat(4, 150px);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 20px;
+	grid-auto-flow: row;
 }
+
+
+
+
+
+
