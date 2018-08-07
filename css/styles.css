@@ -65,8 +65,16 @@
 	grid-auto-flow: row;
 }
 
+/* Modal/Lightbox displays */
 
-
-
-
+/**********************************
+			MEDIA QUERIES
+**********************************/
+@media (max-width: 659px) {
+	.manual {
+		grid-template-columns: repeat(3, 100px);
+		grid-template-rows: repeat(6, 1fr);
+		margin-left: 5%;
+	}
+}
 
