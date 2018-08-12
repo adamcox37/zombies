@@ -131,12 +131,12 @@ function randomJulie4() {
 // Manual lightbox
 //open
 function openModal() {
-    document.getElementById('manualModal').style.display = "block";
+    document.getElementById('myModal').style.display = "block";
 }
 
 //close
 function closeModal() {
-    document.getElementById('manualModal').style.display = "none";
+    document.getElementById('myModal').style.display = "none";
 }
 
 var slideIndex= 1;
@@ -162,7 +162,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
 
 
 
