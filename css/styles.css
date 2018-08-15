@@ -57,6 +57,7 @@
 
 .green, .orange, .red, .blue {
 	font-size: 3em;
+	text-shadow: 4px 4px black;
 }
 
 .green {
@@ -115,6 +116,10 @@
 	.generalInfo {
 		font-size: 12px;
 	}
+
+	.green, .orange, .red, .blue {
+	padding-bottom: 10px;
+}
 
 }
 
